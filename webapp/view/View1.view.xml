@@ -1,9 +1,10 @@
-<mvc:View controllerName="zkt_testzkt_fiori.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zkt_testzkt_fiori.controller.View1" displayBlock="true">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+				    <sap.ushell.ui.footerbar:AddBookmarkButton text="Button" width="100px" icon="sap-icon://add-favorite" xmlns:sap.ushell.ui.footerbar="sap.ushell.ui.footerbar" id="__button0" press="btn_click"/>
+				</content>
 			</Page>
 		</pages>
 	</App>
