@@ -3,7 +3,8 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-				    <sap.ushell.ui.footerbar:AddBookmarkButton text="Button" width="100px" icon="sap-icon://add-favorite" xmlns:sap.ushell.ui.footerbar="sap.ushell.ui.footerbar" id="__button0" press="btn_click"/>
+				    <sap.ushell.ui.footerbar:AddBookmarkButton xmlns:sap.ushell.ui.footerbar="sap.ushell.ui.footerbar" text="Button" width="100px" icon="sap-icon://add-favorite" id="__button0" press="btn_click"/>
+				    <Button text="Button" width="100px" id="__button1"/>
 				</content>
 			</Page>
 		</pages>
